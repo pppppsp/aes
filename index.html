@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Шифрование</title>
+    <link rel="stylesheet" href="./media/css/bootstrap.min.css">
+</head>
+<script src = './media/js/jquery-3.6.3.min.js'></script>
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        <form class = 'shadow-sm rounded p-5' action="" style = 'max-width: 500px; width: 100%;'>
+            <div>
+                <p class = 'fs-5 text-center text-uppercase'>Шифровка и расшифровка на AES</p>
+            </div>
+        
+            <div class="mb-2">
+                <textarea class = 'form-control mt-2' name = 'message' id='id_message' type="text" placeholder="Введите сообщение" style = 'resize:none; height: 150px;'></textarea>
+            </div>
+            <div class="mb-2">
+                <label for="id_cry">Ключ шифрования</label>
+                <input class = 'form-control mt-2' type="text" name = 'cry' id = 'id_cry' placeholder="Ключ шифрования" value = "123">
+            </div>
+            <button id = 'butForm' class = 'btn btn-orange mt-3'>Шифровать</button>
+            <button id = 'butForm2' class = 'btn btn-outline-orange mt-3 float-end'>Дешифровать</button>
+        </form>
+    </div>
+    <div id = 'myResults'>
+
+    </div>
+</body>
+    <script src = './media/js/cd/crypto-js.js'></script>
+    <script src = './media/js/js.js'></script>
+    <script src = './media/js/bootstrap.bundle.js'></script>
+</html>
+
+

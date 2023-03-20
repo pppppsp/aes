@@ -1,0 +1,2 @@
+Привет
+docs: https://cryptojs.gitbook.io/docs/#ciphers
